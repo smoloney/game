@@ -24,7 +24,7 @@ class Player:
     def updateLevel(self):
         self.level += 1
         self.exp = 0
-        self.strength += 1
+        self.strength += 2
         self.updateHP(10)
         self.stats()
 
